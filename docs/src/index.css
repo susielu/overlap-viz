@@ -3,3 +3,19 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+svg {
+  shape-rendering: geometricPrecision;
+}
+
+rect {
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+rect.selected {
+  stroke: white;
+  fill: mediumaquamarine;
+  stroke-width: 1px;
+}

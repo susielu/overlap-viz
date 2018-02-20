@@ -4,21 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "cpx './*.js' ./docs/src -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/susielu/overlap-viz.git"
   },
-  "keywords": [
-    "visualization",
-    "overlap",
-    "viz"
-  ],
+  "keywords": ["visualization", "overlap", "viz"],
   "author": "Susie Lu",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/susielu/overlap-viz/issues"
   },
-  "homepage": "https://github.com/susielu/overlap-viz#readme"
+  "homepage": "https://github.com/susielu/overlap-viz#readme",
+  "devDependencies": {
+    "cpx": "1.5.0",
+    "jsonfile": "4.0.0"
+  },
+  "dependencies": {
+    "d3-scale": "2.0.0"
+  }
 }

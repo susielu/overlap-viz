@@ -1,0 +1,418 @@
+{
+  "category1": {
+    "Drama": {
+      "total": 37229,
+      "children": [{ "dim": "Drama", "count": 37229 }],
+      "type": "child-mixed"
+    },
+    "Documentary": {
+      "total": 28451,
+      "children": [
+        { "dim": "Documentaries", "count": 27981 },
+        { "dim": "Reality TV", "count": 271 },
+        { "dim": "Sports Non-Fiction", "count": 122 },
+        { "dim": "Music Non-Fiction", "count": 42 },
+        { "dim": "Drama", "count": 31 },
+        { "dim": "Comedies", "count": 4 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Comedies": {
+      "total": 25267,
+      "children": [{ "dim": "Comedies", "count": 25267 }],
+      "type": "child-mixed"
+    },
+    "Kids": {
+      "total": 25372,
+      "children": [
+        { "dim": "Kids", "count": 21926 },
+        { "dim": "Family", "count": 3446 }
+      ],
+      "type": "parent"
+    },
+    "Action": {
+      "total": 13659,
+      "children": [{ "dim": "Action", "count": 13659 }],
+      "type": "child-mixed"
+    },
+    "Thrillers": {
+      "total": 7251,
+      "children": [{ "dim": "Thrillers", "count": 7251 }],
+      "type": "child-mixed"
+    },
+    "Horror": {
+      "total": 6107,
+      "children": [{ "dim": "Horror", "count": 6107 }],
+      "type": "child-mixed"
+    },
+    "Sci-Fi": {
+      "total": 5340,
+      "children": [{ "dim": "Sci-Fi", "count": 5340 }],
+      "type": "child-mixed"
+    },
+    "Standup": {
+      "total": 5340,
+      "children": [{ "dim": "Standup", "count": 5340 }],
+      "type": "parity"
+    },
+    "British": {
+      "total": 10593,
+      "children": [
+        { "dim": "Drama", "count": 4889 },
+        { "dim": "Comedies", "count": 3035 },
+        { "dim": "Reality TV", "count": 729 },
+        { "dim": "Action", "count": 620 },
+        { "dim": "Thrillers", "count": 467 },
+        { "dim": "Sci-Fi", "count": 351 },
+        { "dim": "Horror", "count": 314 },
+        { "dim": "Fantasy", "count": 158 },
+        { "dim": "Romance", "count": 26 },
+        { "dim": "Musicals", "count": 2 },
+        { "dim": "Westerns", "count": 2 }
+      ],
+      "type": "mixed"
+    },
+    "Anime": {
+      "total": 4584,
+      "children": [
+        { "dim": "Anime", "count": 4572 },
+        { "dim": "Action", "count": 12 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Korean": {
+      "total": 5454,
+      "children": [
+        { "dim": "Drama", "count": 2353 },
+        { "dim": "Comedies", "count": 1487 },
+        { "dim": "Thrillers", "count": 417 },
+        { "dim": "Action", "count": 374 },
+        { "dim": "Reality TV", "count": 238 },
+        { "dim": "Romance", "count": 230 },
+        { "dim": "TV Variety & Talk Shows", "count": 149 },
+        { "dim": "Horror", "count": 87 },
+        { "dim": "Fantasy", "count": 47 },
+        { "dim": "Sci-Fi", "count": 44 },
+        { "dim": "Music Non-Fiction", "count": 28 }
+      ],
+      "type": "mixed"
+    },
+    "Reality TV": {
+      "total": 2284,
+      "children": [{ "dim": "Reality TV", "count": 2284 }],
+      "type": "child-mixed"
+    },
+    "Romance": {
+      "total": 2050,
+      "children": [{ "dim": "Romance", "count": 2050 }],
+      "type": "child-mixed"
+    },
+    "Bollywood": {
+      "total": 3557,
+      "children": [
+        { "dim": "Drama", "count": 1132 },
+        { "dim": "Action", "count": 846 },
+        { "dim": "Comedies", "count": 795 },
+        { "dim": "Romance", "count": 310 },
+        { "dim": "Thrillers", "count": 287 },
+        { "dim": "Horror", "count": 128 },
+        { "dim": "Musicals", "count": 45 },
+        { "dim": "TV Variety & Talk Shows", "count": 14 }
+      ],
+      "type": "mixed"
+    },
+    "Gay & Lesbian": {
+      "total": 1844,
+      "children": [
+        { "dim": "Drama", "count": 1122 },
+        { "dim": "Comedies", "count": 368 },
+        { "dim": "Reality TV", "count": 309 },
+        { "dim": "Romance", "count": 38 },
+        { "dim": "Thrillers", "count": 7 }
+      ],
+      "type": "mixed"
+    },
+    "Faith & Spirituality": {
+      "total": 841,
+      "children": [
+        { "dim": "Drama", "count": 775 },
+        { "dim": "Romance", "count": 43 },
+        { "dim": "Reality TV", "count": 16 },
+        { "dim": "Action", "count": 5 },
+        { "dim": "Thrillers", "count": 2 }
+      ],
+      "type": "mixed"
+    },
+    "Fantasy": {
+      "total": 619,
+      "children": [{ "dim": "Fantasy", "count": 619 }],
+      "type": "child-mixed"
+    },
+    "Special Interest": {
+      "total": 433,
+      "children": [{ "dim": "Special Interest", "count": 433 }],
+      "type": "parity"
+    },
+    "Westerns": {
+      "total": 342,
+      "children": [{ "dim": "Westerns", "count": 342 }],
+      "type": "child-mixed"
+    },
+    "TV Variety & Talk Shows": {
+      "total": 307,
+      "children": [{ "dim": "TV Variety & Talk Shows", "count": 307 }],
+      "type": "child-mixed"
+    },
+    "Music Non-Fiction": {
+      "total": 146,
+      "children": [{ "dim": "Music Non-Fiction", "count": 146 }],
+      "type": "child-mixed"
+    },
+    "Musicals": {
+      "total": 96,
+      "children": [{ "dim": "Musicals", "count": 96 }],
+      "type": "child-mixed"
+    },
+    "Sports Non-Fiction": {
+      "total": 58,
+      "children": [{ "dim": "Sports Non-Fiction", "count": 58 }],
+      "type": "child-mixed"
+    },
+    "--": {
+      "total": 11,
+      "children": [{ "dim": "--", "count": 11 }],
+      "type": "parity"
+    }
+  },
+  "category2": {
+    "Drama": {
+      "total": 47531,
+      "children": [
+        { "dim": "Drama", "count": 37229 },
+        { "dim": "British", "count": 4889 },
+        { "dim": "Korean", "count": 2353 },
+        { "dim": "Bollywood", "count": 1132 },
+        { "dim": "Gay & Lesbian", "count": 1122 },
+        { "dim": "Faith & Spirituality", "count": 775 },
+        { "dim": "Documentary", "count": 31 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Documentaries": {
+      "total": 27981,
+      "children": [{ "dim": "Documentary", "count": 27981 }],
+      "type": "child-mixed"
+    },
+    "Comedies": {
+      "total": 30956,
+      "children": [
+        { "dim": "Comedies", "count": 25267 },
+        { "dim": "British", "count": 3035 },
+        { "dim": "Korean", "count": 1487 },
+        { "dim": "Bollywood", "count": 795 },
+        { "dim": "Gay & Lesbian", "count": 368 },
+        { "dim": "Documentary", "count": 4 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Kids": {
+      "total": 21926,
+      "children": [{ "dim": "Kids", "count": 21926 }],
+      "type": "child"
+    },
+    "Action": {
+      "total": 15516,
+      "children": [
+        { "dim": "Action", "count": 13659 },
+        { "dim": "Bollywood", "count": 846 },
+        { "dim": "British", "count": 620 },
+        { "dim": "Korean", "count": 374 },
+        { "dim": "Anime", "count": 12 },
+        { "dim": "Faith & Spirituality", "count": 5 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Thrillers": {
+      "total": 8431,
+      "children": [
+        { "dim": "Thrillers", "count": 7251 },
+        { "dim": "British", "count": 467 },
+        { "dim": "Korean", "count": 417 },
+        { "dim": "Bollywood", "count": 287 },
+        { "dim": "Gay & Lesbian", "count": 7 },
+        { "dim": "Faith & Spirituality", "count": 2 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Horror": {
+      "total": 6636,
+      "children": [
+        { "dim": "Horror", "count": 6107 },
+        { "dim": "British", "count": 314 },
+        { "dim": "Bollywood", "count": 128 },
+        { "dim": "Korean", "count": 87 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Sci-Fi": {
+      "total": 5735,
+      "children": [
+        { "dim": "Sci-Fi", "count": 5340 },
+        { "dim": "British", "count": 351 },
+        { "dim": "Korean", "count": 44 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Standup": {
+      "total": 5340,
+      "children": [{ "dim": "Standup", "count": 5340 }],
+      "type": "parity"
+    },
+    "Anime": {
+      "total": 4572,
+      "children": [{ "dim": "Anime", "count": 4572 }],
+      "type": "child-mixed"
+    },
+    "Family": {
+      "total": 3446,
+      "children": [{ "dim": "Kids", "count": 3446 }],
+      "type": "child"
+    },
+    "Reality TV": {
+      "total": 3847,
+      "children": [
+        { "dim": "Reality TV", "count": 2284 },
+        { "dim": "British", "count": 729 },
+        { "dim": "Gay & Lesbian", "count": 309 },
+        { "dim": "Documentary", "count": 271 },
+        { "dim": "Korean", "count": 238 },
+        { "dim": "Faith & Spirituality", "count": 16 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Romance": {
+      "total": 2697,
+      "children": [
+        { "dim": "Romance", "count": 2050 },
+        { "dim": "Bollywood", "count": 310 },
+        { "dim": "Korean", "count": 230 },
+        { "dim": "Faith & Spirituality", "count": 43 },
+        { "dim": "Gay & Lesbian", "count": 38 },
+        { "dim": "British", "count": 26 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Fantasy": {
+      "total": 824,
+      "children": [
+        { "dim": "Fantasy", "count": 619 },
+        { "dim": "British", "count": 158 },
+        { "dim": "Korean", "count": 47 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Special Interest": {
+      "total": 433,
+      "children": [{ "dim": "Special Interest", "count": 433 }],
+      "type": "parity"
+    },
+    "Westerns": {
+      "total": 344,
+      "children": [
+        { "dim": "Westerns", "count": 342 },
+        { "dim": "British", "count": 2 }
+      ],
+      "type": "parent-mixed"
+    },
+    "TV Variety & Talk Shows": {
+      "total": 470,
+      "children": [
+        { "dim": "TV Variety & Talk Shows", "count": 307 },
+        { "dim": "Korean", "count": 149 },
+        { "dim": "Bollywood", "count": 14 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Music Non-Fiction": {
+      "total": 216,
+      "children": [
+        { "dim": "Music Non-Fiction", "count": 146 },
+        { "dim": "Documentary", "count": 42 },
+        { "dim": "Korean", "count": 28 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Sports Non-Fiction": {
+      "total": 180,
+      "children": [
+        { "dim": "Documentary", "count": 122 },
+        { "dim": "Sports Non-Fiction", "count": 58 }
+      ],
+      "type": "parent-mixed"
+    },
+    "Musicals": {
+      "total": 143,
+      "children": [
+        { "dim": "Musicals", "count": 96 },
+        { "dim": "Bollywood", "count": 45 },
+        { "dim": "British", "count": 2 }
+      ],
+      "type": "parent-mixed"
+    },
+    "--": {
+      "total": 11,
+      "children": [{ "dim": "--", "count": 11 }],
+      "type": "parity"
+    }
+  },
+  "category1Totals": [
+    { "dim": "Drama", "total": 37229 },
+    { "dim": "Documentary", "total": 28451 },
+    { "dim": "Comedies", "total": 25267 },
+    { "dim": "Kids", "total": 25372 },
+    { "dim": "Action", "total": 13659 },
+    { "dim": "Thrillers", "total": 7251 },
+    { "dim": "Horror", "total": 6107 },
+    { "dim": "Sci-Fi", "total": 5340 },
+    { "dim": "Standup", "total": 5340 },
+    { "dim": "British", "total": 10593 },
+    { "dim": "Anime", "total": 4584 },
+    { "dim": "Korean", "total": 5454 },
+    { "dim": "Reality TV", "total": 2284 },
+    { "dim": "Romance", "total": 2050 },
+    { "dim": "Bollywood", "total": 3557 },
+    { "dim": "Gay & Lesbian", "total": 1844 },
+    { "dim": "Faith & Spirituality", "total": 841 },
+    { "dim": "Fantasy", "total": 619 },
+    { "dim": "Special Interest", "total": 433 },
+    { "dim": "Westerns", "total": 342 },
+    { "dim": "TV Variety & Talk Shows", "total": 307 },
+    { "dim": "Music Non-Fiction", "total": 146 },
+    { "dim": "Musicals", "total": 96 },
+    { "dim": "Sports Non-Fiction", "total": 58 },
+    { "dim": "--", "total": 11 }
+  ],
+  "category2Totals": [
+    { "dim": "Drama", "total": 47531 },
+    { "dim": "Documentaries", "total": 27981 },
+    { "dim": "Comedies", "total": 30956 },
+    { "dim": "Kids", "total": 21926 },
+    { "dim": "Action", "total": 15516 },
+    { "dim": "Thrillers", "total": 8431 },
+    { "dim": "Horror", "total": 6636 },
+    { "dim": "Sci-Fi", "total": 5735 },
+    { "dim": "Standup", "total": 5340 },
+    { "dim": "Anime", "total": 4572 },
+    { "dim": "Family", "total": 3446 },
+    { "dim": "Reality TV", "total": 3847 },
+    { "dim": "Romance", "total": 2697 },
+    { "dim": "Fantasy", "total": 824 },
+    { "dim": "Special Interest", "total": 433 },
+    { "dim": "Westerns", "total": 344 },
+    { "dim": "TV Variety & Talk Shows", "total": 470 },
+    { "dim": "Music Non-Fiction", "total": 216 },
+    { "dim": "Sports Non-Fiction", "total": 180 },
+    { "dim": "Musicals", "total": 143 },
+    { "dim": "--", "total": 11 }
+  ]
+}
